@@ -6,13 +6,86 @@
     <title>Stanford Data</title>
 
     <style>
+    h1, .footer {
+        font-family: serif;
+    }
 
+    table {
+        font-family: sans-serif;
+        font-weight: lighter;
+        text-align: left;
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+
+    .header {
+        background: black;
+        color: white;
+        border-left: thin white;
+    }
+
+    th {
+        padding: 5px;
+    }
+
+    .odd, .even, th, tr {
+        border: 1px solid black;
+    }
+
+    .odd {
+        background-color:#EEE;
+    }
+
+    .even {
+        background: white;
+    }
+
+    .footer {
+        font-style: italic;
+    }
     </style>
 </head>
 
 <body>
     <h1>Geographic Origin of Stanford Undergrads</h1>
-    <div class = "table">
+    <table> 
+        <tr class = "header">
+            <th> Geographic Origin </th>
+            <th> Number of Students </th>
+        </tr>
+        <tr class = "odd">
+            <th> California </th>
+            <th> 2,943 </th>
+        </tr>
+        <tr class = "even">
+            <th> Other US </th>
+            <th> 3,447 </th>
+        </tr>
+        <tr class = "odd">
+            <th> Asia </th>
+            <th> 264 </th>
+        </tr>
+        <tr class = "even"> 
+            <th> The Americas </th>
+            <th> 83 </th>
+        </tr>
+        <tr class = "odd">
+            <th> Europe </th>
+            <th> 69 </th>
+        </tr>
+        <tr class = "even">
+            <th> Africa </th>
+            <th> 44 </th>
+        </tr>
+        <tr class = "odd"> 
+            <th> Middle East and North Africa </th>
+            <th> 22 </th>
+        </tr>
+        <tr class = "even">
+            <th> Pacific Basin </th>
+            <th> 6 </th>
+        </tr>
+    </table>
 
     </div>
     <div class = "footer">
