@@ -1,0 +1,74 @@
+body {
+    background-color: #333;
+}
+.seal {
+    float: left;
+    padding-top: 15px;
+    padding-left: 100px;
+    width: 50px;
+}
+
+.title {
+    margin-left: 150px;
+    padding-left: 20px;
+    padding-top: 8px;
+    color: darkred;
+    
+}
+
+h2 {
+    color: white;
+}
+
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+#main {
+    padding-left: 100px;
+    padding-top: 100px;
+}
+
+.entrydate {
+    color: lightgray;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+.entrycontents {
+    color: lightgray;
+    padding-top: 10px;
+}
+
+.entrytags {
+    color: lightgray;
+    font-style: italic;
+    padding-top: 20px;
+}
+
+.pic {
+    float: right;
+    width: 40%;
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-right: 80px;
+    padding-bottom: 30px;
+    position: relative;
+}
+
+.entry {
+    padding-bottom: 30px;
+    padding-right: 40px;
+}
+
+a {
+    color: pink;
+}
