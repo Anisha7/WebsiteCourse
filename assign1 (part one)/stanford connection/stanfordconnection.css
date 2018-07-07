@@ -21,7 +21,7 @@
 }
 
 .item3-1 {
-    grid-column: 3;
+    grid-column: 1;
     grid-row: 1 / span 2;
     background-color: rgba(255, 255, 255, 0.8);
 }
@@ -76,6 +76,28 @@ p {
 }
 
 .molly {
-    width: 80%;
-    padding: 20px;
+    width: 100%;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.sidebar {
+    width: 33%;
+    padding-right: 0%;
+}
+
+/* right bar */
+
+.rightbar {
+    float: left;
+    width: 90%;
+}
+
+/* item 4 */
+.title4 {
+    float: left;
+}
+
+.item4 {
+    grid-column-start: 40%;
 }

@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Stanford Connection</title>
+    <style>
+    .item1 { grid-area: header; }
+    .item2 { grid-area: menu; }
+    .item3 { grid-area: main; }
+    .item4 { grid-area: right; }
+    .item5 { grid-area: footer;}
+    .grid-container {
+    display: grid;
+    grid-template-areas:
+        'header header header header header right'
+        'menu main main main main right'
+        'menu main main main main right';
+    grid-gap: 10px;
+    padding: 10px;
+    }
+    .grid-container > div {
+    text-align: center;
+    font-size: 30px;
+    }
+    /* font */
+    body {
+        font-family: sans-serif;
+    }
+    /* added for banner */
+    .banner {
+        list-style-type: none;
+    }
+    .item1 {
+        background-color: #9A0000;
+    }
+    li {
+        display: inline;
+    }
+
+    h1 {
+        float: left;
+        color: white;
+        font-family: sans-serif;
+        font-size: 60px;
+    }
+
+    .logo {
+        float: right;
+        padding-right: 20px;
+        padding-top: 10px;
+    }
+
+    /* pink titles */
+    .titlebg {
+        float: left;
+        font-weight: bold;
+        font-size: 18px;
+        background-color: #CC9191;
+        padding: 2px;
+        width: 100%;
+        border-top: 2px solid black;
+        border-bottom: 2px solid black;
+    }
+
+    .title {
+        float: left;
+        padding-left: 10px;
+    }
+
+    /* right bar */
+    .rightbar {
+        float: left;
+        width: 90%;
+    }
+
+    .removemar {
+        margin-top: 0;
+    }
+
+    .removepad {
+        padding-top: 0;
+    }
+
+    /* left bar */
+    .molly {
+        width: 90%;
+    }
+    /* middle content styling */
+    h2 {
+        padding: 0;
+        margin: 0;
+        text-align: left;
+    }
+
+    .updatelist {
+        font-size: 18px;
+        text-align: left;
+    }
+
+    </style>
+</head>
+<body>
+
+    <div class="grid-container">
+        <div class="item1">
+            <ul class = "banner">
+                <li><h1> Stanford Connection </h1></li>
+                <li><img class = "logo" src = "tree-logo.gif" src = "tree-logo"></li>
+            </ul>
+        </div>
+        <div class="item2">
+            <div>
+                <img class = "molly" src = "molly.jpg" alt= "molly">
+            </div>
+            
+
+            <div>
+                <p class = "title titlebg"> About Me</p>
+            </div>
+
+            
+            <ul class = "text">
+                <li><p><b> Birthday: </b> December 8, 2001 </p> </li>
+                <li><p><b> Gender: </b> Female</p></li>
+            </ul>
+            
+            
+            <div>
+                <p class = "title titlebg"> Friends</p>
+            </div>
+
+            <ul class = "text">
+                <li><p><b>Patrick Young </b></p> </li>
+                <li><p><b>Chloe Cox </b></p></li>
+            </ul>
+        </div>
+        <div class="item3">
+            <h2> Molly the FloPup</h2>
+            <p class = "title titlebg"> Status Updates</p>
+            <ul class = "updatelist">
+                <hr>
+                <p class = "border">
+                    When am I going to get fed?
+                </p>
+                <hr>
+                <p class = "border">
+                    I want to go for a walk.
+                </p>
+                <hr>
+                <p class = "border">
+                    There's a squirrel on the patio, why won't Patrick
+                    let me out so I can chase it?
+                </p>
+                <hr>
+                <p class = "border">
+                    I really like summer, because I get to sun myself in the patio.
+                </p>
+                <hr>
+                <p> </p>
+            </ul>
+        </div>  
+        <div class="item4 removepad">
+            <div class = "rightbar">
+                <p class = "title titlebg removemar"> Post Updates</p>
+                <form id = "postupdate" enctype="text/plain">
+                    <textarea rows = "10" cols = "40" form = "postupdate"> </textarea>
+                    <br> 
+                    <input type="submit" value="Submit">
+                </form>
+            </div></div>
+    </div>
+
+</body>
+</html>
