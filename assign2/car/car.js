@@ -21,6 +21,7 @@ function changeImageToBlue(){
 
 function changeImageToSilver(){
     document.getElementById("changeCar").src = "silver.jpg";
+
     document.getElementById("redButton").style.backgroundColor = "white";
     document.getElementById("blueButton").style.backgroundColor = "white";
     document.getElementById("silverButton").style.backgroundColor = "lightblue";
@@ -30,6 +31,7 @@ function changeImageToSilver(){
 
 function changeImageToWhite(){
     document.getElementById("changeCar").src = "white.jpg";
+
     document.getElementById("redButton").style.backgroundColor = "white";
     document.getElementById("blueButton").style.backgroundColor = "white";
     document.getElementById("silverButton").style.backgroundColor = "white";
@@ -39,6 +41,7 @@ function changeImageToWhite(){
 
 function changeImageToBlack(){
     document.getElementById("changeCar").src = "black.jpg";
+    
     document.getElementById("redButton").style.backgroundColor = "white";
     document.getElementById("blueButton").style.backgroundColor = "white";
     document.getElementById("silverButton").style.backgroundColor = "white";
