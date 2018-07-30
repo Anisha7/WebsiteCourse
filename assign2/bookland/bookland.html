@@ -12,17 +12,31 @@
     <h1>bookland</h1>
     <div class = "main">
         <div class = "sub">
-            <form action="/action_page.php">
-                Author Name: <input type="text" name="fname"><br><br>
-                Book Title: <input type="text" name="lname"><br><br>
-                <input type="submit" value="Submit">
-                <input type="submit" value="Submit">
-            </form>
-            
-        </div>
 
-        <div>
-            <p></p>
+            <div class = "grid-container">
+                <div class = "grid-one">
+                    <div>
+                    <p> Author Name: </p>
+                    <p> Book Title: </p><br><br>
+                    </div>
+                </div>
+
+                <div class = "grid-two">
+                    <div>
+                        <br>
+                        <input class = "field" type="text" name="fname"><br><br>
+                        <input class = "field" type="text" name="lname"><br><br>
+
+                        <input class = "button" type="submit" value="Find book">
+                        <input class = "button" type="submit" value="Clear info">
+                    </div>
+                </div>
+            </div>
+
+            <div class = "data">
+                <p></p>
+            </div>
+            
         </div>
 
     </div>
