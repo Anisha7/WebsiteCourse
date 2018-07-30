@@ -1,0 +1,79 @@
+/* layout */
+h2 {
+    background-color: darkgray;
+    padding: 10px;
+    margin-top: 0px;
+    border: 1px solid black;
+}
+
+h1, .flex-container {
+    margin-left: 10px;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 38%;
+}
+
+.form {
+    width: 90%;
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 10px;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.f4 {
+    float: right;
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 38%;
+    margin-right: 21%;
+    margin-top: 0px;
+}
+/* choose a color form */
+#redButton {
+    background-color: "lightblue";
+}
+
+.colorOptions { 
+    width: 10%;
+}
+.color {
+    border: none;
+    width: 1000%;
+}
+
+.carIMG {
+    float: right;
+    width: 60%;
+}
+
+.optionDIV {
+    float: left;
+    border: 1px solid black;
+}
+
+/* options */
+
+.right {
+    float: right;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/* calculate total form*/
+#total {
+    border: 1px solid black;
+    width: 40%;
+    float: left;
+    margin-right: 20px;
+    padding-top: 5px;
+}
+
+#calculateTotal {
+    padding: 5px;
+}

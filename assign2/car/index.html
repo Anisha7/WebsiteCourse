@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Consider Your GT Super Sportscar</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script type="text/javascript" src="car.js"></script>
+
+</head>
+
+<body>
+    <h1>Consider Your GT Super Sportscar</h1>
+    <div class = "f4">
+        <h2>Choose a Color</h2>
+        <div class = "optionDIV">
+            <form class = "colorOptions">
+                <button class = "color" type="button" id = "redButton" onClick = "changeImageToRed()">Red</button> <br>
+                <button class = "color" type="button" id = "blueButton" onClick = "changeImageToBlue()">Blue</button> <br>
+                <button class = "color" type="button" id = "silverButton" onClick = "changeImageToSilver()">Silver</button> <br>
+                <button class = "color" type="button" id = "whiteButton" onClick = "changeImageToWhite()">White</button> <br>
+                <button class = "color" type="button" id = "blackButton" onClick = "changeImageToBlack()">Black</button> 
+            </form>
+        </div>
+        <div class = "carIMG">
+            <img id = "changeCar" class = "car" src = "red.jpg" alt= "red">
+        </div>
+    </div>
+
+    <div class = "flex-container">
+
+        <div class = "form f1">
+            <h2>CONFIGURATION</h2>
+            <form>
+                <input type="radio" name="configuration" id="GManual" value="GManual" checked>
+                GT Manual<p class = "right">$17,790.00</p><br>
+                <input type="radio" name="configuration" id="GAuto" value="GAuto">
+                GT Automatic<p class = "right">$18,590.00</p><br>
+                <input type="radio" name="configuration" id="SManual" value="SManual">
+                GT-S Manual<p class = "right">$22,455.00</p><br>
+                <input type="radio" name="configuration" id="SAuto" value="SAuto">
+                GT-S Automatic<p class = "right">$23,155.00</p>
+            </form>
+        </div>
+
+        <div class = "form f2">
+            <h2>Factory Options</h2>
+            <form>
+                <input type="radio" name="factory" id="combo1" value="combo1">
+                Option Combo #1<p class = "right">$1235.00</p><br>
+                <input type="radio" name="factory" id="combo2" value="combo2">
+                Option Combo #2<p class = "right">$3354.00</p><br>
+                <input type="radio" name="factory" id="noCombo" value="noCombo" checked>
+                No Combo<p class = "right">$0</p>
+            </form>
+        </div>
+        
+        <div class = "form f3">
+            <h2>Dealer Options</h2>
+            <form>
+                <input type="checkbox" name="factory" id="stereo" value="stereo">
+                Upgraded Stereo System<p class = "right">$550.00</p><br>
+                <input type="checkbox" name="factory" id="security" value="security">
+                VIP Security System<p class = "right">$399.00</p><br>
+                <input type="checkbox" name="factory" id="mirror" value="mirror">
+                Auto-Dimming Mirror<p class = "right">$295.00</p>
+            </form>
+        </div>
+
+        <div class = "form f5">
+            <h2>Total Price</h2>
+            <div id = "total">
+                <p></p>
+            </div>
+            <button id = "calculateTotal" type = "button" onclick="writeTotal()"> Calculate Total</button>
+        </div>
+
+    </div>
+
+    
+
+</body>
+</html>
