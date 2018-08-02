@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <title>Consider Your GT Super Sportscar</title>
     <link rel="stylesheet" type="text/css" href="bookland.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script type="text/javascript" src="bookland.js"></script>
 
 </head>
@@ -24,16 +25,16 @@
                 <div class = "grid-two">
                     <div>
                         <br>
-                        <input class = "field" type="text" name="fname"><br><br>
-                        <input class = "field" type="text" name="lname"><br><br>
+                        <input class = "field" type="text" name="name" id = "author"><br><br>
+                        <input class = "field" type="text" name="title" id = "book"><br><br>
 
-                        <input class = "button" type="submit" value="Find book">
-                        <input class = "button" type="submit" value="Clear info">
+                        <input class = "button" type="submit" value="Find book" onclick="findInfo()">
+                        <input class = "button" type="submit" value="Clear info" onclick="clearInfo()">
                     </div>
                 </div>
             </div>
 
-            <div class = "data">
+            <div id = "data" class = "data">
                 <p></p>
             </div>
             
